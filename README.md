@@ -12,3 +12,7 @@ npm install @react-navigation/native@^6.0.0
 npm install react-native-screens@3.31.1 --legacy-peer-deps
 npm install react-native-safe-area-context@^4.5.0 --legacy-peer-deps
 ```
+
+```
+npm install @react-navigation/native-stack@^6.0.0
+```
