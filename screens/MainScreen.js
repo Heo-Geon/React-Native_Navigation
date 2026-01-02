@@ -40,7 +40,7 @@ function MainScreen() {
         initialRouteName='Home'
         screenOptions={{
             tabBarActiveTintColor: '#fb8c00',
-            tabBarShowLabel: false
+            tabBarShowLabel: false,
         }}
     >
     <Tab.Screen
@@ -50,7 +50,8 @@ function MainScreen() {
             title: "홈",
             tabBarIcon: ({color, size}) => (
                 <Icon name="home" color={color} size={size} />
-            )
+            ),
+            tabBarBadge: 'new'
         }}
     />
     <Tab.Screen
